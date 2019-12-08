@@ -136,6 +136,9 @@
   .questions_form_btn {
     padding: 17px 147px;
   }
+  .android {
+    margin: 0 10px;
+  }
 }
 @media only screen and (max-width: 980px) {
   .nav_logo {
@@ -161,6 +164,11 @@
   .phone,
   .social-media {
     width: 40%;
+  }
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -209,7 +217,7 @@
     padding: 17px 87px;
   }
 }
-@media only screen and (max-width: 865px) {
+@media only screen and (max-width: 880px) {
   .promo_block {
     display: none;
   }
@@ -232,6 +240,29 @@
   .first-column_info-block,
   .second-column_info-block {
     width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+  .footer_btn-block {
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 785px) {
@@ -255,6 +286,43 @@
   }
   .sony_logo {
     padding: 0 0 40px;
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info,
+  .form_wrap {
+    width: 100%;
+    position: relative;
+  }
+  .btn_form-hello {
+    position: absolute;
+    top: 105%;
+  }
+  .title_info {
+    right: 4%;
+  }
+  .envelope,
+  .location,
+  .phone,
+  .social-media {
+    width: 200px;
+    height: 123px;
+  }
+  .textarea_form-hello {
+    margin: 0;
   }
 }
 @media only screen and (max-width: 762px) {
@@ -434,6 +502,19 @@
   }
   .dicription_questions_block {
     width: 295px;
+  }
+  .btn_footer {
+    width: 51px;
+    height: 46px;
+  }
+  .company-name {
+    display: none;
+  }
+  .footer_logo {
+    display: none;
+  }
+  .android {
+    margin: 0px 25px;
   }
 }
 @media only screen and (max-width: 485px) {

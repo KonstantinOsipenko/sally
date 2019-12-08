@@ -67,6 +67,9 @@ right: 13%;
 .questions_form_btn{
 	padding: 17px 147px;
 }
+.android {
+    margin: 0 10px;
+}
 }
 @media only screen and (max-width: 980px){
 	.nav_logo{
@@ -87,6 +90,9 @@ right: 13%;
 }
 .location,.envelope,.phone,.social-media{
 width: 40%;
+}
+.footer{
+	justify-content: center;
 }
 }
 @media only screen and (max-width: 960px){
@@ -121,7 +127,7 @@ width: 40%;
 	padding: 17px 87px;
 }
 }
-@media only screen and (max-width: 865px){
+@media only screen and (max-width: 880px){
 .promo_block{
 	display: none;
 }
@@ -130,6 +136,14 @@ width: 40%;
 }
 .first-column_info-block, .second-column_info-block{
 	width: 100%;
+	justify-content: center;
+}
+.footer{
+	.flex_column;
+	flex-direction: column-reverse;
+}
+.footer_btn-block{
+	margin-top: 20px;
 }
 }
 @media only screen and (max-width: 785px){
@@ -142,7 +156,27 @@ width: 40%;
 .sony_logo{
 	padding:0 0 40px;
 }
-
+.contact{
+	.flex_column;
+}
+.info, .form_wrap{
+    width: 100%;
+    position: relative;
+}
+.btn_form-hello {
+    position: absolute;
+    top: 105%;
+    }
+.title_info {
+    right: 4%;
+}
+.envelope, .location, .phone, .social-media {
+    width: 200px;
+    height: 123px;
+}
+.textarea_form-hello {
+    margin: 0;
+}
 }
 @media only screen and (max-width: 762px){
 	.header__block_img{
@@ -244,6 +278,19 @@ width: 100%;
 }
 .dicription_questions_block {
     width: 295px;
+}
+.btn_footer{
+	width: 51px;
+	height: 46px;
+}
+.company-name{
+	display: none;
+}
+.footer_logo{
+	display: none;
+}
+.android {
+    margin: 0px 25px;
 }
 }
 @media only screen and (max-width: 485px){
